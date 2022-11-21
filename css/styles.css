@@ -9,6 +9,9 @@ body {
   margin-left: auto;
 
 }
+title {
+  text-align: center;
+}
 
 hr {
   border-top:5px dotted #579D8A;
@@ -16,11 +19,11 @@ hr {
   height: 5px;
   width: 25%;
 }
-#Sitename {
+.Sitename {
   font-family: Papyrus, fantasy;
   text-decoration: underline;
 }
-#siteslogan {
+.siteslogan {
   font-family: Papyrus, fantasy;
 }
 .button {
@@ -64,7 +67,6 @@ hr {
    box-sizing: border-box;
    padding: 10px;
    text-align: center;
-   scroll-behavior: smooth;
    font-size: 20px;
  }
 
@@ -90,3 +92,13 @@ hr {
   margin: 4px 2px;
   cursor: pointer;
  }
+input {
+  border-color: #9CAAA6;
+  padding: 12px 20px;
+  background-color: #1DC492;
+}
+label {
+  font-size: 16px;
+  font-family: Papyrus, fantasy;
+  font-weight: bold;
+}
