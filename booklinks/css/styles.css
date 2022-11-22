@@ -170,3 +170,24 @@ label {
   background-color: #1DC492;
     color: white;
 }
+.topchart {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+.updatetime {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+.toptable{
+  margin-left: auto;
+  margin-right: auto;
+}
+.toptable tr, td {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  border:  5px solid;
+  border-color: #1C8263;
+  padding: 15px 15px;
+}

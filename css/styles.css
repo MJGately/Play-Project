@@ -1,6 +1,14 @@
 body {
   background-color: #9DF9E0;
 }
+.arial {
+  font-family: Arial, sans-serif;
+}
+.arialh3 {
+  font-family: Arial, sans-serif;
+  text-decoration: underline;
+  font-weight: bold;
+}
 .bookbanner {
   height: 200px;
   width: 600px;
@@ -91,6 +99,7 @@ hr {
 .dropdown:hover .dropbtn {background-color: #1DC492;}
 .sectiontitle {
   text-decoration: underline;
+  font-family: Arial, sans-serif;
  }
  /* (A) FIXED WRAPPER */
  .hwrap {
