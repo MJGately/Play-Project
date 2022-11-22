@@ -22,6 +22,7 @@ hr {
 .Sitename {
   font-family: Papyrus, fantasy;
   text-decoration: underline;
+  padding-top: 30px;
 }
 .siteslogan {
   font-family: Papyrus, fantasy;
@@ -38,6 +39,10 @@ hr {
  margin: 4px 2px;
  cursor: pointer;
 }
+.button:hover {
+  background-color: #1DC492;
+  color: white;
+}
 .button2 {
   background-color: #1C8263;
   border: none;
@@ -47,6 +52,10 @@ hr {
   font-size: 14px;
   margin: 4px 24px;
   cursor: pointer;
+}
+.button2:hover {
+  background-color: #1DC492;
+  color: white;
 }
 .sectiontitle {
   text-decoration: underline;
@@ -81,16 +90,20 @@ hr {
   }
  .learnmore {
    background-color: #579D8A;
-  border: none;
-  color: white;
-  padding: 30px 50px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 24px;
-  font-weight: bold;
-  margin: 4px 2px;
-  cursor: pointer;
+   border: none;
+   color: white;
+   padding: 30px 50px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 24px;
+   font-weight: bold;
+   margin: 4px 2px;
+   cursor: pointer;
+ }
+ .learnmore:hover {
+   background-color: #1DC492;
+   color: white;
  }
 input {
   border-color: #9CAAA6;
@@ -99,6 +112,29 @@ input {
 }
 label {
   font-size: 16px;
-  font-family: Papyrus, fantasy;
+  font-family: Arial, sans-serif;
   font-weight: bold;
+  padding: 15px 20px;
+}
+.topnav {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+
+}
+.topnav a {
+  background-color: #1C8263;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 24px;
+  cursor: pointer;
+}
+.topnav a:hover{
+  background-color: #1DC492;
+    color: white;
 }
