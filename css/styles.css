@@ -1,8 +1,10 @@
 body {
-  background-color: #9DF9E0;
+  background-image: url("../images/background.jpg");
+  background-size: cover;
 }
 .arial {
   font-family: Arial, sans-serif;
+  font-weight: bold;
 }
 .arialh3 {
   font-family: Arial, sans-serif;
